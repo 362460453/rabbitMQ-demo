@@ -1,14 +1,10 @@
 package com.demo.goods;
 
 import com.demo.Order;
-import com.rabbitmq.client.Channel;
 import org.springframework.amqp.rabbit.annotation.RabbitHandler;
 import org.springframework.amqp.rabbit.annotation.RabbitListener;
-import org.springframework.amqp.support.AmqpHeaders;
-import org.springframework.messaging.handler.annotation.Header;
 import org.springframework.stereotype.Service;
 
-import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
